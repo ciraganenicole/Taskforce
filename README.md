@@ -19,6 +19,7 @@ A user can:
 - Create, edit, and delete an account. He can also visualize the account list on the home page and see account details
 - Create and edit a record
 - When creating a record, he can select from the list of existing categories and subcategories or create new ones
+- If a user exceed the budget, he gets an alert
 
 
 ## Technologies used

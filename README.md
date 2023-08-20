@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Wallet Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Wallet Web Application is a platform that allows users to control their financial transactions and accounts. Built using cutting-edge technologies including Firebase, Reactjs, and TailwindCSS, this application ensures a smooth and user-friendly experience for tracking financial activities daily.
 
-## Available Scripts
+## Technologies used
 
-In the project directory, you can run:
+- Firebase
+- Reactjs
+- TailwindCSS
 
-### `npm start`
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To set up the application locally, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
 
-### `npm test`
+Make sure you have the following tools installed:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Git
+- Node.js
 
-### `npm run build`
+### Setup
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Open a terminal and run:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone git@github.com:ciraganenicole/Taskforce.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```
+cd Taskforce
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Running the application
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### A. Install dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+yarn install
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### B. Start the server
 
-## Learn More
+```
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screenshots
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+#### Welcome page
 
-### Code Splitting
+<img width="960" alt="welcome" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/084b33c5-3a9a-4e8f-babe-0e19d21b8852">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Click on the "Get started" button to navigate to the login page
 
-### Analyzing the Bundle Size
+#### Login page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<img width="932" alt="login" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/3cd5c81b-2c33-4d2d-a928-8de068e4ce31">
 
-### Making a Progressive Web App
+If you already own an account, you can use your credentials to log in, if not click on the "Signup" link at the bottom to create one.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+#### Signup page
 
-### Advanced Configuration
+<img width="879" alt="signup" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/1aee5ef9-9093-4e36-8ef2-6b7a930a3fe5">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### Home page
 
-### Deployment
+<img width="945" alt="home" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/18be433e-d17a-4e90-add2-aaf64a138d1b">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+The home page contains the list of accounts and the table of records
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👤 **Ciragane Nicole**
+
+- GitHub: [@githubhandle](https://github.com/ciraganenicole)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/nicole-ciragane-19a3071bb)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is not licensed.

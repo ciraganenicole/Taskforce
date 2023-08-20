@@ -37,9 +37,6 @@ const NavBar = () => {
         <img src={logo} alt="logo" className="m-auto" />
       </Link>
       <ul className="flex flex-row items-center justify-between gap-4">
-        <li className="text-paragraph100">
-          <Link to="/report">Reports</Link>
-        </li>
         <li>
           <button onClick={handleLogout}>
             <HiOutlineLogout className="text-paragraph100" size={24} />

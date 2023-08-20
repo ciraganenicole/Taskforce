@@ -57,16 +57,16 @@ const Transactions = () => {
             </tr>
           </thead>
           <tbody>
-            {records.map((record) => (
-              <tr
+            {records.map((record) => {
+              return (<tr
                 className="grid grid-cols-5 bg-secondary/10 p-4 text-secondary my-1"
                 key={Math.random()}
               >
                 <td className="truncate hover:text-clip px-4">
                   {
                     accounts.find(
-                      (account) => (account.id = record.data.account)
-                    )?.accountName
+                      (account) => (account.id === record.data.account)
+                    )?.data.accountName
                   }
                 </td>
                 <td className="truncate hover:text-clip px-4">
@@ -74,10 +74,10 @@ const Transactions = () => {
                 </td>
                 <td className="truncate hover:text-clip px-4">
                   {
-                    subCategories.find(
+                    subCategories.filter(
                       (subCategory) =>
-                        (subCategory.name = record.data.subCategory)
-                    )?.name
+                        (record.data.subCategory.includes(subCategory.id))
+                    )?.map(subC => subC.data.name)?.join('|')
                   }
                 </td>
                 <td className="truncate hover:text-clip px-4">
@@ -102,7 +102,7 @@ const Transactions = () => {
                   />
                 )}
               </tr>
-            ))}
+            )})}
           </tbody>
         </table>
       </div>

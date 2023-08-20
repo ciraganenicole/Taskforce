@@ -67,7 +67,7 @@ const AddNewTransaction = ({onClose, open}) => {
     }
   
     return (
-      <Modal modalLable='Add Account' onClose={onClose} open={open}>
+      <Modal modalLable='Add Record' onClose={onClose} open={open}>
         <form onSubmit={handleSubmit} className="mt-8">
         <Input
           type="number"
@@ -85,9 +85,9 @@ const AddNewTransaction = ({onClose, open}) => {
          onSelect={(value) => {
           setCategory(value);
          }}
-         create = {(value) => {
-          handleCreateItem('categories', {name: value}, setCategory)
-         }}
+        //  create = {(value) => {
+        //   handleCreateItem('categories', {name: value}, setCategory)
+        //  }}
         />
         <InputDropdown
          items={subCategories.filter(sub => sub.data.categoryId === category).map(sub => ({

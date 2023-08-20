@@ -2,6 +2,25 @@
 
 The Wallet Web Application is a platform that allows users to control their financial transactions and accounts. Built using cutting-edge technologies including Firebase, Reactjs, and TailwindCSS, this application ensures a smooth and user-friendly experience for tracking financial activities daily.
 
+## Functionalities
+
+#### A. Authentication
+
+A user can: 
+
+- Log in
+- Signup
+- Logout
+  
+#### B. Application
+
+A user can:
+
+- Create, edit, and delete an account. He can also visualize the account list on the home page and see account details
+- Create and edit a record
+- When creating a record, he can select from the list of existing categories and subcategories or create new ones
+
+
 ## Technologies used
 
 - Firebase

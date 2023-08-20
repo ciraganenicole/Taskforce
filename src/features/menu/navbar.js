@@ -3,7 +3,6 @@ import { onAuthStateChanged } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
-import { BsBellFill } from "react-icons/bs";
 import { HiOutlineLogout } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import logo from "../../assets/whiteLogo.png";

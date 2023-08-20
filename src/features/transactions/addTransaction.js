@@ -1,5 +1,5 @@
 import {db} from '../../firebase'
-import {collection, addDoc, Timestamp, updateDoc, getDoc, getFirestore, doc} from 'firebase/firestore'
+import {collection, addDoc, Timestamp, updateDoc, doc} from 'firebase/firestore'
 import Modal from '../../components/modal'
 import {useEffect, useState} from 'react'
 import Input from '../../components/input'
@@ -85,9 +85,6 @@ const AddNewTransaction = ({onClose, open}) => {
          onSelect={(value) => {
           setCategory(value);
          }}
-        //  create = {(value) => {
-        //   handleCreateItem('categories', {name: value}, setCategory)
-        //  }}
         />
         <InputDropdown
          items={subCategories.filter(sub => sub.data.categoryId === category).map(sub => ({
@@ -101,7 +98,7 @@ const AddNewTransaction = ({onClose, open}) => {
           if(category) {
             handleCreateItem('subCategories', {name: value, categoryId: category}, setSubCategory)
           } else {
-            // alert category does not exist
+            alert('Category does not exist')
           }
          }}
          isMulti

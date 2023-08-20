@@ -87,7 +87,18 @@ If you already own an account, you can use your credentials to log in, if not cl
 
 #### Home page
 
-<img width="945" alt="home" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/18be433e-d17a-4e90-add2-aaf64a138d1b">
+<img width="947" alt="home" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/106c5d8d-8a1c-4551-be09-bbdacaf7f142">
+
+#### Create a record popup
+
+<img width="575" alt="popup" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/df13d8b3-a248-4cbc-9d88-d2afc5ebf232">
+
+#### Create an account popup
+
+
+<img width="504" alt="account" src="https://github.com/ciraganenicole/Taskforce/assets/72297212/b705795e-90c5-476b-b1d9-5827bda4405d">
+
+
 
 The home page contains the list of accounts and the table of records
 
